@@ -117,7 +117,7 @@ def L_model_backward_test_case():
     W2 = np.random.randn(1,3)
     b2 = np.random.randn(1,1)
     Z2 = np.random.randn(1,2)
-    linear_cache_activation_2 = ( (A2, W2, b2), Z2)
+    linear_cache_activation_2 = ((A2, W2, b2), Z2)
 
     caches = (linear_cache_activation_1, linear_cache_activation_2)
 
